@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.sct1 {
+  height: 740px;
+  width: 100%;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+  background-size: cover;
+}
+
+.sct2 {
+  height: 628px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.sct3 {
+  height: 1200px;
+  width: 100%;
+  background-color: #F8F9FA;
+}
+
+.sct4 {
+  height: 1747px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sct4 .container {
+  width: 1320px;
+  height: 1539px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.sct4 .container .text-center {
+  width: 1296px;
+  height: 83px;
+  text-align: center;
+}
+.sct4 .container .text-center h2 {
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.sct4 .container .text-center span {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+}
+.sct4 .container .timeline {
+  width: 1296px;
+  height: 1392px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.sct4 .container .timeline .item1,
+.sct4 .container .timeline .item2 {
+  width: 1296px;
+  height: 205px;
+}
+.sct4 .container .timeline .item1 {
+  display: flex;
+  justify-content: start;
+}
+.sct4 .container .timeline .item1 .item1-text {
+  width: 531px;
+  height: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.sct4 .container .timeline .item1 .item1-text h3 {
+  font-size: 1.5rem;
+}
+.sct4 .container .timeline .item1 .item1-text h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.sct4 .container .timeline .item1 .item1-text p {
+  color: #6c757d;
+  line-height: 1.75;
+}
+.sct4 .container .timeline .item1 .item1-img {
+  height: 170px;
+  width: 228px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sct4 .container .timeline .item1 .item1-img img {
+  width: 157px;
+  height: 157px;
+  border: 7px solid #e9ecef;
+}
+.sct4 .container .timeline .item1 .item1-img .line {
+  position: absolute;
+  width: 135px;
+  height: 2px;
+  background-color: #e9ecef;
+  rotate: 90deg;
+  bottom: -63px;
+}
+.sct4 .container .timeline .item2 {
+  display: flex;
+  justify-content: start;
+}
+.sct4 .container .timeline .item2 .item2-img {
+  height: 170px;
+  width: 228px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sct4 .container .timeline .item2 .item2-img img {
+  width: 157px;
+  height: 157px;
+  border: 7px solid #e9ecef;
+}
+.sct4 .container .timeline .item2 .item2-img .line2 {
+  position: absolute;
+  width: 178px;
+  height: 2px;
+  background-color: #e9ecef;
+  rotate: 90deg;
+  bottom: -85px;
+}
+.sct4 .container .timeline .item2 .item2-text {
+  width: 531px;
+  height: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.sct4 .container .timeline .item2 .item2-text h3 {
+  font-size: 1.5rem;
+}
+.sct4 .container .timeline .item2 .item2-text h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.sct4 .container .timeline .item2 .item2-text p {
+  color: #6c757d;
+  line-height: 1.75;
+}
+
+.sct5 {
+  height: 820px;
+  width: 100%;
+  background-color: #F8F9FA;
+}
+
+.sct6 {
+  height: 700px;
+  width: 100%;
+  background-color: red;
+  background-image: url("../../../assets/images/world-140304_640 (1).jpg");
+}
+
+footer {
+  height: 98px;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .fw-bold {
+    text-align: center;
+  }
+  .sct3 {
+    height: auto;
+  }
+  .row {
+    height: auto;
+    justify-content: center;
+  }
+  .d-flex {
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    margin: 1.8rem 0;
+  }
+  .sct5 {
+    height: auto;
+  }
+  .text-center {
+    width: 100%;
+  }
+  .row {
+    width: 100%;
+  }
+  .gap-4 .inputWidth {
+    width: 100%;
+  }
+}
