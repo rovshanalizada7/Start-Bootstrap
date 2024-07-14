@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.nav-link:hover{
+    color: rgba(255, 200, 0, 0.9)!important;
+}
+
 .sct1 {
     height: 740px;
     width: 100%;
@@ -23,6 +27,38 @@
     height: 1200px;
     width: 100%;
     background-color: #F8F9FA;
+
+    .container {
+        .row{
+            .card {
+                .image{
+                    position: relative;
+                    &:hover{
+                        .visible {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            transition: opacity ease-in-out 0.25s;
+                            cursor: pointer;
+                        }
+                    }
+                    .visible {
+                        position: absolute;
+                        top: 0;
+                        display: none;
+                        transition: opacity ease-in-out 0.25s;
+                        opacity: 0.9;
+                        height: 312px;
+                        width: 400px;
+                        background: rgba(255, 200, 0, 0.9);
+                    }
+                }
+                img {
+                    width: 400px;
+                }
+            }
+        }
+    }
 }
 
 .sct4 {
@@ -115,11 +151,11 @@
 
                     .line {
                         position: absolute;
-                        width: 135px;
                         height: 2px;
                         background-color: #e9ecef;
                         rotate: 90deg;
-                        bottom: -63px;
+                        width: 64.5rem;
+                        bottom: -32rem;
                     }
                 }
             }
@@ -190,6 +226,15 @@
     height: 820px;
     width: 100%;
     background-color: #F8F9FA;
+
+    .icons {
+        i {
+            &:hover {
+                opacity: 0.9;
+                cursor: pointer;
+            }
+        }
+    }
 }
 
 .sct6 {
@@ -203,27 +248,43 @@
 footer {
     height: 98px;
     width: 100%;
+
+    .icons {
+        i {
+            &:hover {
+                opacity: 0.9;
+                cursor: pointer;
+            }
+        }
+    }
 }
 
-@media (max-width:992px) {
+@media (max-width:1000px) {
     .fw-bold {
         text-align: center;
     }
-
+    
+   
     .sct3 {
-        height: auto;
+        height: auto !important;
     }
 
     .row {
         height: auto;
         justify-content: center;
     }
+   
 
     .d-flex {
         flex-wrap: wrap;
         height: auto;
         justify-content: center;
-        margin: 1.8rem 0;
+        margin: 0;
+        
+        
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: none !important;
     }
 
     .sct5 {
