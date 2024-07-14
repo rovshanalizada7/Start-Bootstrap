@@ -16,6 +16,12 @@
   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
   background-size: cover;
 }
+.sct1 a {
+  opacity: 0.9;
+}
+.sct1 a:hover {
+  opacity: 1;
+}
 
 .sct2 {
   height: 628px;
@@ -198,7 +204,8 @@
   height: 700px;
   width: 100%;
   background-color: red;
-  background-image: url("../../../assets/images/world-140304_640 (1).jpg");
+  background-color: #212529;
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
 }
 
 footer {
